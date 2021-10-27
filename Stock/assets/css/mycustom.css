@@ -1,0 +1,64 @@
+.product-text{
+    font-size:15px;
+}
+.prductImg{
+    height: 80px;
+    width: 60px;
+  }
+
+.sale-expence{
+    text-align: center;
+}
+.pixedbtn{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    position: fixed;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    font-size:20px;
+    text-align: center;
+    background-attachment: fixed;
+    border:none;
+    background:linear-gradient(rgba(0, 0, 0, 0.753), rgba(111, 222, 33, 0.299));
+    font-weight: bold;
+ }
+.dis_pixedbtn{
+    position: absolute;
+    bottom: 30px;
+    right: 80px;
+    position: fixed;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    font-size:15px;
+    text-align: center;
+    background-attachment: fixed;
+    border:none;
+    background:linear-gradient(rgba(0, 0, 0, 0.753), rgba(144, 202, 103, 0.299));
+    font-weight: bold;
+} 
+
+.selectName{
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.selectName:hover{
+    cursor: pointer;
+    background:rgba(0, 0, 0, 0.22);
+    color:#fff;
+}
+.nameGroup{
+    box-sizing: border-box;
+}
+
+.decoration{
+    background:rgba(111, 222, 33, 0.699);
+}
+.content-body{
+    min-height: 100%;
+}
+.due{
+    color:red;
+}

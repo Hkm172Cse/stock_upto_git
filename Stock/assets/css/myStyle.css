@@ -1,0 +1,49 @@
+.due{
+    color:#0d968f88;
+}
+/*
+p:nth-child(2) {
+    background: red;
+  }
+*/ 
+#product_box .card:nth-child(2n){
+    background: #c4e0e5;
+    border: 2px solid #ffdde1;
+}
+#product_box .card:nth-child(2n+1){
+    background: #ffdde1;
+    border: 2px solid #c4e0e5;
+} 
+.saleBox .card:nth-child(2n){
+    background: #c4e0e5;
+    border: 2px solid #ffdde1;
+}
+.saleBox .card:nth-child(2n+1){
+    background: #ffdde1;
+    border: 2px solid #c4e0e5;
+}
+.saleBox h2{
+    color:#555;
+}
+.saleBox h5{
+    color:#555;
+}
+.saleBox h6{
+    color:#555;
+}
+.bgsale{
+    background: #ffdde1;
+}
+.bgexpense{
+   background:#c4e0e5; 
+}
+.customer-search{
+    padding:5px 10px;
+    border: 1px dotted #555;
+}
+.due-header-box{
+    margin-bottom:10px;
+}
+.paymentlink> i{
+    font-size:15px;
+}
